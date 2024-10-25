@@ -1,1 +1,6 @@
-# test
+unique_name: tred-aeo
+object_type: catalog
+label: tred-aeo
+version: 1.0
+aggressive_agg_promotion: false
+build_speculative_aggs: false
