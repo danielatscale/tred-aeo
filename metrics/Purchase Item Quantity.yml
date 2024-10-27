@@ -1,4 +1,4 @@
-unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_PURCHASE_ITEM_QTY_sum
+unique_name: Purchase Item Quantity
 object_type: metric
 label: Purchase Item Quantity
 calculation_method: sum

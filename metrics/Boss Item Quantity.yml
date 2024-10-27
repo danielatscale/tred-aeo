@@ -1,4 +1,4 @@
-unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOSS_ITEM_QTY_sum
+unique_name: Boss Item Quantity
 object_type: metric
 label: Boss Item Quantity
 calculation_method: sum

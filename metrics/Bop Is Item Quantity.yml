@@ -1,4 +1,4 @@
-unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOPIS_ITEM_QTY_sum
+unique_name: Bop Is Item Quantity
 object_type: metric
 label: Bop Is Item Quantity
 calculation_method: sum

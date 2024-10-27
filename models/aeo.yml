@@ -2,13 +2,13 @@ unique_name: aeo
 object_type: model
 label: aeo
 metrics:
-  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_RETURN_ITEM_QTY_sum
+  - unique_name: Return Item Quantity
     folder: Metrics
-  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_PURCHASE_ITEM_QTY_sum
+  - unique_name: Purchase Item Quantity
     folder: Metrics
-  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOSS_ITEM_QTY_sum
+  - unique_name: Boss Item Quantity
     folder: Metrics
-  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOPIS_ITEM_QTY_sum
+  - unique_name: Bop Is Item Quantity
     folder: Metrics
 relationships:
   - unique_name: >-
