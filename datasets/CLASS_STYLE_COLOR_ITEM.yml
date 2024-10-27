@@ -1,0 +1,108 @@
+unique_name: CLASS_STYLE_COLOR_ITEM
+object_type: dataset
+label: CLASS_STYLE_COLOR_ITEM
+columns:
+  - name: ITEMDB_PLAN_BODY_DESC
+    data_type: string
+  - name: ITEMDB_FABRIC_DESC
+    data_type: string
+  - name: ITEMDB_EQUITY_KEYWORDS_DESC
+    data_type: string
+  - name: ITEMDB_FEATURE_DISPLAY_DESC
+    data_type: string
+  - name: ITEMDB_FORM_DISPLAY_DESC
+    data_type: string
+  - name: ITEMDB_SECONDARY_FEATURE_DESC
+    data_type: string
+  - name: ITEMDB_KEY_MEASUREMENT_DESC
+    data_type: string
+  - name: ITEMDB_ADDITIONAL_STYLE_DETAIL_DESC
+    data_type: string
+  - name: ITEMDB_DESIGN_COLORWAY_DESC
+    data_type: string
+  - name: ITEMDB_COLOR_FAMILY_DESC
+    data_type: string
+  - name: ITEMDB_COLOR_TYPE2_DESC
+    data_type: string
+  - name: ITEMDB_GRAPHIC_PATTERN_TYPE_DESC
+    data_type: string
+  - name: ITEMDB_EMBELLISHMENT_TRIM_DESC
+    data_type: string
+  - name: ITEMDB_TREATMENT2_DESC
+    data_type: string
+  - name: ITEMDB_WASH2_DESC
+    data_type: string
+  - name: ITEMDB_EQUITY_NAME_DESC
+    data_type: string
+  - name: ITEMDB_RECALL_CODE_DESC
+    data_type: string
+  - name: ITEMDB_SHIP_ALONE_DESC
+    data_type: string
+  - name: ITEMDB_HAZMAT_DESC
+    data_type: string
+  - name: ITEMDB_BRAND_DESC
+    data_type: string
+  - name: ITEMDB_UNIT_WEIGHT_AMT
+    data_type: decimal(38,9)
+  - name: ITEMDB_UNIT_WEIGHT_UOM
+    data_type: string
+  - name: ITEMDB_FIBER_CONTENT_DESC
+    data_type: string
+  - name: ITEMDB_SEASON_YEAR_NBR
+    data_type: long
+  - name: ITEMDB_THIRD_PARTY_VENDOR_DESC
+    data_type: string
+  - name: ITEMDB_ADDITIONAL_DETAIL_DESC
+    data_type: string
+  - name: ITEMDB_STORE_ATTRIBUTE_DESC
+    data_type: string
+  - name: ITEMDB_SHOT_TYPE_DESC
+    data_type: string
+  - name: ITEMDB_STUDIO_NOTES_DESC
+    data_type: string
+  - name: ITEMDB_DAM_STATUS_CD
+    data_type: string
+  - name: ITEMDB_MATCHBACK_DESC
+    data_type: string
+  - name: ITEMDB_THIRD_PARTY_DESC
+    data_type: string
+  - name: ITEMDB_BENEFIT_DESC
+    data_type: string
+  - name: ITEMDB_STRATEGY_DESC
+    data_type: string
+  - name: ITEMDB_SUSTAINABILITY_DESC
+    data_type: string
+  - name: ITEMDB_SAMPLE_STATUS
+    data_type: string
+  - name: ITEMDB_PARTNERSHIP_DESC
+    data_type: string
+  - name: ITEM_BRAND_CD
+    data_type: string
+  - name: ITEM_BRAND_DESC
+    data_type: string
+  - name: CONCEPT_NBR
+    data_type: long
+  - name: CONCEPT_NAME
+    data_type: string
+  - name: DIVISION_DESC
+    data_type: string
+  - name: DIVISION_NBR
+    data_type: long
+  - name: DEPARTMENT_DESC
+    data_type: string
+  - name: DEPARTMENT_NBR
+    data_type: string
+  - name: CLASS_DESC
+    data_type: string
+  - name: STYLE_DESC
+    data_type: string
+  - name: COLOR_DESC
+    data_type: string
+  - name: CLASS_NBR
+    data_type: long
+  - name: STYLE_NBR
+    data_type: long
+  - name: COLOR_NBR
+    data_type: long
+connection_id: con_atscale-sales-demo_DG
+table: CLASS_STYLE_COLOR_ITEM

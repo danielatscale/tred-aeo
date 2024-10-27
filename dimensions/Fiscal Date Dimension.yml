@@ -1,0 +1,87 @@
+unique_name: Fiscal Date Dimension
+object_type: dimension
+label: Fiscal Date Dimension
+hierarchies:
+  - unique_name: Fiscal Date Hierarchy
+    label: Fiscal Date Hierarchy
+    folder: Fiscal Date Dimension
+    levels:
+      - unique_name: Fiscal Year
+        secondary_attributes:
+          - unique_name: Fiscal Year Description
+            label: Fiscal Year Description
+            contains_unique_names: false
+            dataset: AEO_FISCAL_DATES
+            is_unique_key: false
+            key_columns:
+              - FISCAL_YEAR_DESC
+            name_column: FISCAL_YEAR_DESC
+      - unique_name: Fiscal Quarter
+        secondary_attributes:
+          - unique_name: Fiscal Quarter Description
+            label: Fiscal Quarter Description
+            contains_unique_names: false
+            dataset: AEO_FISCAL_DATES
+            is_unique_key: false
+            key_columns:
+              - FISCAL_YEAR_QUARTER_DESC
+            name_column: FISCAL_YEAR_QUARTER_DESC
+            sort_column: FISCAL_YEAR_QUARTER_DESC
+      - unique_name: Fiscal Week
+        secondary_attributes:
+          - unique_name: Fiscal Week Description
+            label: Fiscal Week Description
+            contains_unique_names: false
+            dataset: AEO_FISCAL_DATES
+            is_unique_key: false
+            key_columns:
+              - FISCAL_WEEK_DESC
+            name_column: FISCAL_WEEK_DESC
+      - unique_name: Fiscal Date
+        secondary_attributes:
+          - unique_name: Day of Week Name
+            label: Day of Week Name
+            contains_unique_names: false
+            dataset: AEO_FISCAL_DATES
+            is_unique_key: false
+            key_columns:
+              - DAY_OF_WEEK_NAME
+            name_column: DAY_OF_WEEK_NAME
+level_attributes:
+  - unique_name: Fiscal Date
+    label: Fiscal Date
+    contains_unique_names: false
+    dataset: AEO_FISCAL_DATES
+    is_unique_key: false
+    key_columns:
+      - AEO_DT
+    name_column: AEO_DT
+    time_unit: day
+  - unique_name: Fiscal Week
+    label: Fiscal Week
+    contains_unique_names: false
+    dataset: AEO_FISCAL_DATES
+    is_unique_key: false
+    key_columns:
+      - FISCAL_WEEK_NBR
+    name_column: FISCAL_WEEK_NBR
+    time_unit: week
+  - unique_name: Fiscal Quarter
+    label: Fiscal Quarter
+    contains_unique_names: false
+    dataset: AEO_FISCAL_DATES
+    is_unique_key: false
+    key_columns:
+      - FISCAL_YEAR_QUARTER_NBR
+    name_column: FISCAL_YEAR_QUARTER_NBR
+    time_unit: quarter
+  - unique_name: Fiscal Year
+    label: Fiscal Year
+    contains_unique_names: false
+    dataset: AEO_FISCAL_DATES
+    is_unique_key: false
+    key_columns:
+      - FISCAL_YEAR_NBR
+    name_column: FISCAL_YEAR_NBR
+    time_unit: year
+type: time

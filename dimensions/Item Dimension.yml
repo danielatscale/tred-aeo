@@ -1,0 +1,21 @@
+unique_name: Item Dimension
+object_type: dimension
+label: Item Dimension
+hierarchies:
+  - unique_name: Item Dimension Hierarchy
+    label: Item Dimension Hierarchy
+    folder: Item Dimension
+    levels:
+      - unique_name: Item Description
+level_attributes:
+  - unique_name: Item Description
+    label: Item Description
+    contains_unique_names: false
+    dataset: CLASS_STYLE_COLOR_ITEM
+    is_unique_key: false
+    key_columns:
+      - CLASS_NBR
+      - STYLE_NBR
+      - COLOR_NBR
+    name_column: ITEM_BRAND_DESC
+type: standard

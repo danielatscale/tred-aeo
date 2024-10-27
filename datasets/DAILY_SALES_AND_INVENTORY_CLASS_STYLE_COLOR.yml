@@ -1,0 +1,358 @@
+unique_name: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR
+object_type: dataset
+label: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR
+columns:
+  - name: MARKETPLACE_CD
+    data_type: string
+  - name: STORE_NBR
+    data_type: long
+  - name: DEMAND_DT
+    data_type: date
+  - name: DIVISION_NBR
+    data_type: long
+  - name: DEPARTMENT_NBR
+    data_type: long
+  - name: CLASS_NBR
+    data_type: long
+  - name: STYLE_NBR
+    data_type: long
+  - name: COLOR_NBR
+    data_type: long
+  - name: RETURN_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: PURCHASE_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: BOSS_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: BOPIS_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_STORE_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_STORE_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_DIGITAL_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_DIGITAL_ITEM_QTY
+    data_type: decimal(38,9)
+  - name: PURCHASE_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: PURCHASE_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: RETURN_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: RETURN_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: BOSS_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOSS_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: BOPIS_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOPIS_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_STORE_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_STORE_EXTENDED_USE_AMT
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_STORE_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_STORE_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_DIGITAL_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: S2D_INCLUDED_WITH_DIGITAL_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_DIGITAL_EXTENDED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: S2D_EXCLUDED_FROM_DIGITAL_EXTENDED_USD_AMT
+    data_type: decimal(38,9)
+  - name: SELLING_MARGIN_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: SELLING_MARGIN_ACTUAL_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: SELLING_MARGIN_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: SELLING_MARGIN_VALUED_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: CURRENT_TICKET_PRICE_LCL_AMT
+    data_type: decimal(38,9)
+  - name: CURRENT_TICKET_PRICE_USD_AMT
+    data_type: decimal(38,9)
+  - name: ORIGNAL_TICKET_PRICE_LCL_AMT
+    data_type: decimal(38,9)
+  - name: ORIGNAL_TICKET_PRICE_USD_AMT
+    data_type: decimal(38,9)
+  - name: ORIGINAL_OWNERSHIP_PRICE_LCL_AMT
+    data_type: decimal(38,9)
+  - name: ORIGINAL_OWNERSHIP_PRICE_USD_AMT
+    data_type: decimal(38,9)
+  - name: CURRENT_OWNERSHIP_PRICE_LCL_AMT
+    data_type: decimal(38,9)
+  - name: CURRENT_OWNERSHIP_PRICE_USD_AMT
+    data_type: decimal(38,9)
+  - name: VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: VALUED_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: ACTUAL_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: FINANCE_CURRENCY_CONVERSION_RATE
+    data_type: long
+  - name: MPA_CURRENCY_CONVERSION_RATE
+    data_type: long
+  - name: PERM_MARKDOWN_RETAIL_LCL_AMT
+    data_type: decimal(38,9)
+  - name: PERM_MARKDOWN_RETAIL_USD_AMT
+    data_type: decimal(38,9)
+  - name: PERM_MARKDOWN_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: PERM_MARKDOWN_VALUED_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_INVENTORY_QTY
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_INVENTORY_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_INVENTORY_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_INVENTORY_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_INVENTORY_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_ON_HAND_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_ON_HAND_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_CURRENT_ON_HAND_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_ORIGINAL_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: EOD_ORIGINAL_ON_HAND_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_ORIGINAL_ON_HAND_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_ORIGINAL_ON_HAND_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_ORIGINAL_ON_HAND_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_TRANSFER_QTY
+    data_type: decimal(38,9)
+  - name: EOD_TRANSFER_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_TRANSFER_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_TRANSFER_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_TRANSFER_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_DAMAGE_QTY
+    data_type: decimal(38,9)
+  - name: EOD_DAMAGE_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_DAMAGE_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_DAMAGE_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_DAMAGE_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_QTY
+    data_type: decimal(38,9)
+  - name: EOD_IN_TRANSIT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_WIP_PREALLOCATED_QTY
+    data_type: decimal(38,9)
+  - name: EOD_WIP_PACK_AND_HOLD_QTY
+    data_type: decimal(38,9)
+  - name: EOD_WIP_WAREHOUSE_QTY
+    data_type: decimal(38,9)
+  - name: EOD_TEST_AND_EXTRACT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_PREALLOC_UNITS_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: EOD_PREALLOC_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: EOD_TEST_AND_EXTRACT_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: EOD_TEST_AND_EXTRACT_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: EOD_PACK_AND_HOLD_UNITS_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: EOD_PACK_AND_HOLD_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: EOD_WIP_DC_QTY
+    data_type: decimal(38,9)
+  - name: EOD_WIP_RECEIPTS_QTY
+    data_type: decimal(38,9)
+  - name: EOD_ADJUSTED_INVENTORY_WIP_DC_UT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_AIR_UT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_AIR_AMT_LCL
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_AIR_COST_AMT
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_OCEAN_OTHER_UT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_OCEAN_OTHER_AMT_LCL
+    data_type: decimal(38,9)
+  - name: EOD_RECEIPTS_OCEAN_OTHER_COST_AMT
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_IN_TRANSIT_QTY
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_PO_RELEASED_QTY
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_PO_BACKORDER_QTY
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_PO_PLACED_QTY
+    data_type: decimal(38,9)
+  - name: EOD_STERLING_PO_SCHEDULED_QTY
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_INVENTORY_QTY
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_INVENTORY_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_INVENTORY_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_INVENTORY_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_INVENTORY_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: _CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_ON_HAND_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_ON_HAND_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_CURRENT_ON_HAND_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_ORIGINAL_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: BOD_ORIGINAL_ON_HAND_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_ORIGINAL_ON_HAND_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_ORIGINAL_ON_HAND_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_ORIGINAL_ON_HAND_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_TRANSFER_QTY
+    data_type: decimal(38,9)
+  - name: BOD_TRANSFER_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_TRANSFER_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_TRANSFER_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_TRANSFER_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_DAMAGE_QTY
+    data_type: decimal(38,9)
+  - name: BOD_DAMAGE_CURRENT_TICKET_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_DAMAGE_CURRENT_OWNERSHIP_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_DAMAGE_VALUED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_DAMAGE_ACTUAL_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_QTY
+    data_type: decimal(38,9)
+  - name: BOD_IN_TRANSIT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_WIP_PREALLOCATED_QTY
+    data_type: decimal(38,9)
+  - name: BOD_WIP_PACK_AND_HOLD_QTY
+    data_type: decimal(38,9)
+  - name: BOD_WIP_WAREHOUSE_QTY
+    data_type: decimal(38,9)
+  - name: BOD_TEST_AND_EXTRACT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_PREALLOC_UNITS_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: BOD_PREALLOC_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: BOD_TEST_AND_EXTRACT_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: BOD_TEST_AND_EXTRACT_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: BOD_PACK_AND_HOLD_UNITS_BACKSTOCK_QTY
+    data_type: decimal(38,9)
+  - name: BOD_PACK_AND_HOLD_UNITS_STORES_QTY
+    data_type: decimal(38,9)
+  - name: BOD_WIP_DC_QTY
+    data_type: decimal(38,9)
+  - name: BOD_WIP_RECEIPTS_QTY
+    data_type: decimal(38,9)
+  - name: BOD_ADJUSTED_INVENTORY_WIP_DC_UT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_AIR_UT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_AIR_AMT_LCL
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_AIR_COST_AMT
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_OCEAN_OTHER_UT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_OCEAN_OTHER_AMT_LCL
+    data_type: decimal(38,9)
+  - name: BOD_RECEIPTS_OCEAN_OTHER_COST_AMT
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_ON_HAND_QTY
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_IN_TRANSIT_QTY
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_PO_RELEASED_QTY
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_PO_BACKORDER_QTY
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_PO_PLACED_QTY
+    data_type: decimal(38,9)
+  - name: BOD_STERLING_PO_SCHEDULED_QTY
+    data_type: decimal(38,9)
+  - name: ITEM_STATUS_CD
+    data_type: string
+  - name: AVAILABLE_INSTOCK_IND
+    data_type: long
+  - name: INSTOCK_AT_ONE_QTY
+    data_type: decimal(38,9)
+  - name: INSTOCK_AT_TWO_QTY
+    data_type: decimal(38,9)
+  - name: INSTOCK_OPPORTUNITIES_QTY
+    data_type: decimal(38,9)
+  - name: PERMANENT_MARKDOWN_IND
+    data_type: string
+  - name: STORE_PRICING_IND
+    data_type: string
+  - name: ITEM_RECALL_IND
+    data_type: string
+  - name: OPEN_PO_OTHER_UNIT_QTY
+    data_type: decimal(38,9)
+  - name: OPEN_PO_OTHER_OWNED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_OTHER_OWNED_USD_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_OTHER_LANDED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_OTHER_LANDED_COST_USD_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_AIR_UNIT_QTY
+    data_type: decimal(38,9)
+  - name: OPEN_PO_AIR_OWNED_LCL_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_AIR_OWNED_USD_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_AIR_LANDED_COST_LCL_AMT
+    data_type: decimal(38,9)
+  - name: OPEN_PO_AIR_LANDED_COST_USD_AMT
+    data_type: decimal(38,9)
+connection_id: con_atscale-sales-demo_DG
+table: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR

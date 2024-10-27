@@ -1,0 +1,6 @@
+unique_name: con_atscale-sales-demo_DG
+object_type: connection
+label: con_atscale-sales-demo_DG
+as_connection: BigQuery
+database: atscale-sales-demo
+schema: DG

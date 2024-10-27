@@ -1,0 +1,108 @@
+unique_name: Location Dimension
+object_type: dimension
+label: Location Dimension
+hierarchies:
+  - unique_name: Location Dimension Hierarchy
+    label: Location Dimension Hierarchy
+    folder: Location Dimension
+    levels:
+      - unique_name: District Name
+        secondary_attributes:
+          - unique_name: District Manager Name
+            label: District Manager Name
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - DISTRICT_MANAGER_NAME
+            name_column: DISTRICT_MANAGER_NAME
+      - unique_name: Region Name
+        secondary_attributes:
+          - unique_name: Region Manager Name
+            label: Region Manager Name
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - REGION_MANAGER_NAME
+            name_column: REGION_MANAGER_NAME
+      - unique_name: Territory Name
+        secondary_attributes:
+          - unique_name: Territory Manager Name
+            label: Territory Manager Name
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - TERRITORY_MANAGER_NAME
+            name_column: TERRITORY_MANAGER_NAME
+      - unique_name: Zone Name
+        secondary_attributes:
+          - unique_name: Zone Manager Name
+            label: Zone Manager Name
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - ZONE_MANAGER_NAME
+            name_column: ZONE_MANAGER_NAME
+      - unique_name: Store Name
+        secondary_attributes:
+          - unique_name: Store Open Date
+            label: Store Open Date
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - IP_STORE_OPEN_DT
+            name_column: IP_STORE_OPEN_DT
+          - unique_name: Store Close Date
+            label: Store Close Date
+            contains_unique_names: false
+            dataset: Location_Hirerachy
+            is_unique_key: false
+            key_columns:
+              - STORE_CLOSE_TM
+            name_column: STORE_CLOSE_TM
+level_attributes:
+  - unique_name: Store Name
+    label: Store Name
+    contains_unique_names: false
+    dataset: Location_Hirerachy
+    is_unique_key: false
+    key_columns:
+      - STORE_NBR
+    name_column: STORE_NAME
+  - unique_name: Zone Name
+    label: Zone Name
+    contains_unique_names: false
+    dataset: Location_Hirerachy
+    is_unique_key: false
+    key_columns:
+      - ZONE_NBR
+    name_column: ZONE_NAME
+  - unique_name: Territory Name
+    label: Territory Name
+    contains_unique_names: false
+    dataset: Location_Hirerachy
+    is_unique_key: false
+    key_columns:
+      - TERRITORY_NBR
+    name_column: TERRITORY_NAME
+  - unique_name: Region Name
+    label: Region Name
+    contains_unique_names: false
+    dataset: Location_Hirerachy
+    is_unique_key: false
+    key_columns:
+      - REGION_NBR
+    name_column: REGION_NAME
+  - unique_name: District Name
+    label: District Name
+    contains_unique_names: false
+    dataset: Location_Hirerachy
+    is_unique_key: false
+    key_columns:
+      - DISTRICT_NBR
+    name_column: DISTRICT_NAME
+type: standard

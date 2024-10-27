@@ -1,0 +1,70 @@
+unique_name: AEO_FISCAL_DATES
+object_type: dataset
+label: AEO_FISCAL_DATES
+columns:
+  - name: AEO_DT
+    data_type: date
+  - name: FISCAL_YEAR_NBR
+    data_type: long
+  - name: FISCAL_WEEK_NBR
+    data_type: long
+  - name: DAY_OF_WEEK_NBR
+    data_type: long
+  - name: FISCAL_YEAR_DAY_NBR
+    data_type: long
+  - name: HOLIDAY_CD
+    data_type: string
+  - name: HOLIDAY_DESC
+    data_type: string
+  - name: DAY_OF_WEEK_NAME
+    data_type: string
+  - name: WEEK_IN_PERIOD_NBR
+    data_type: long
+  - name: FISCAL_WEEK_DESC
+    data_type: string
+  - name: WEEK_IN_SEASON_NBR
+    data_type: long
+  - name: FISCAL_WEEK_START_DT
+    data_type: date
+  - name: FISCAL_WEEK_END_DT
+    data_type: date
+  - name: FISCAL_YEAR_PERIOD_NBR
+    data_type: long
+  - name: FISCAL_PERIOD_IN_QUARTER_NBR
+    data_type: long
+  - name: FISCAL_PERIOD_DESC
+    data_type: string
+  - name: WEEKS_IN_PERIOD_CNT
+    data_type: long
+  - name: FISCAL_PERIOD_START_DT
+    data_type: date
+  - name: FISCAL_PERIOD_END_DT
+    data_type: date
+  - name: FISCAL_YEAR_QUARTER_NBR
+    data_type: long
+  - name: FISCAL_YEAR_QUARTER_DESC
+    data_type: string
+  - name: FISCAL_QUARTER_START_DT
+    data_type: date
+  - name: FISCAL_QUARTER_END_DT
+    data_type: date
+  - name: FISCAL_YEAR_SEASON_NBR
+    data_type: long
+  - name: FISCAL_YEAR_SEASON_DESC
+    data_type: string
+  - name: FISCAL_SEASON_START_DT
+    data_type: date
+  - name: FISCAL_SEASON_END_DT
+    data_type: date
+  - name: FISCAL_YEAR_DESC
+    data_type: string
+  - name: FISCAL_YEAR_START_DT
+    data_type: date
+  - name: FISCAL_YEAR_END_DT
+    data_type: date
+  - name: WEEK53_YEAR_IND
+    data_type: string
+  - name: COMPARE_DT
+    data_type: date
+connection_id: con_atscale-sales-demo_DG
+table: AEO_FISCAL_DATES

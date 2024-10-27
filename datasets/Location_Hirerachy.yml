@@ -1,0 +1,278 @@
+unique_name: Location_Hirerachy
+object_type: dataset
+label: Location_Hirerachy
+columns:
+  - name: STORE_NBR
+    data_type: long
+  - name: STORE_NAME
+    data_type: string
+  - name: POINT_OF_SALE_TYPE_DESC
+    data_type: string
+  - name: ZONE_NBR
+    data_type: long
+  - name: ZONE_NAME
+    data_type: string
+  - name: ZONE_MANAGER_NAME
+    data_type: string
+  - name: TERRITORY_NBR
+    data_type: long
+  - name: TERRITORY_NAME
+    data_type: string
+  - name: TERRITORY_MANAGER_NAME
+    data_type: string
+  - name: REGION_NBR
+    data_type: long
+  - name: REGION_NAME
+    data_type: string
+  - name: REGION_MANAGER_NAME
+    data_type: string
+  - name: DISTRICT_NBR
+    data_type: long
+  - name: DISTRICT_NAME
+    data_type: string
+  - name: DISTRICT_MANAGER_NAME
+    data_type: string
+  - name: AREA_ID
+    data_type: long
+  - name: AREA_NAME
+    data_type: string
+  - name: IP_STORE_OPEN_DT
+    data_type: date
+  - name: IP_STORE_CLOSE_DT
+    data_type: date
+  - name: STORE_OPEN_TM
+    data_type: date
+  - name: STORE_CLOSE_TM
+    data_type: date
+  - name: STORE_LINE1_ADDR
+    data_type: string
+  - name: STORE_LINE2_ADDR
+    data_type: string
+  - name: CITY_NAME
+    data_type: string
+  - name: STATE_PROVINCE_CD
+    data_type: string
+  - name: POSTAL_CD
+    data_type: string
+  - name: CURRENCY_CD
+    data_type: string
+  - name: PRICE_GROUP_CD
+    data_type: string
+  - name: PHONE_NBR
+    data_type: long
+  - name: TIMEZONE_CD
+    data_type: string
+  - name: TIMEZONE_DESC
+    data_type: string
+  - name: ALLOW_SALES_IND
+    data_type: string
+  - name: VAT_CD
+    data_type: string
+  - name: STORE_STATUS_CD
+    data_type: string
+  - name: IP_WEB_SELLING_IND
+    data_type: string
+  - name: LATTITUDE_GEO
+    data_type: string
+  - name: LONGITUDE_GEO
+    data_type: string
+  - name: MARKETPLACE_CURRENCY_CD
+    data_type: string
+  - name: GEO_LOCATION
+    data_type: string
+  - name: DMA_MARKET
+    data_type: string
+  - name: MARKETPLACE_CD
+    data_type: string
+  - name: MARKETPLACE_DESC
+    data_type: string
+  - name: GEOGRAPHIC_COUNTRY_CD
+    data_type: string
+  - name: GEOGRAPHIC_COUNTRY_DESC
+    data_type: string
+  - name: IP_PURGE_DT
+    data_type: string
+  - name: PRESENT_IN_IP_IND
+    data_type: string
+  - name: TYPE_OF_SALES_CD
+    data_type: string
+  - name: ESG
+    data_type: string
+  - name: STAR
+    data_type: string
+  - name: REAL_ESTATE
+    data_type: string
+  - name: LAST_90_DAYS_ACTIVE_IND
+    data_type: string
+  - name: EFFECTIVE_START_DT
+    data_type: string
+  - name: EFFECTIVE_END_DT
+    data_type: string
+  - name: EXTRACT_TIMESTAMP
+    data_type: string
+  - name: STORE_BRAND_CD
+    data_type: string
+  - name: LOCATION_TYPE_DESC
+    data_type: string
+  - name: WAREHOUSE_IND
+    data_type: string
+  - name: WAREHOUSE_DESC
+    data_type: string
+  - name: WAREHOUSE_TYPE_DESC
+    data_type: string
+  - name: OUTLET_STRATEGY_DESC
+    data_type: string
+  - name: ESG_LOCATION_TYPE_DESC
+    data_type: string
+  - name: BOSS_IND
+    data_type: string
+  - name: STORE_CHANNEL_DESC
+    data_type: string
+  - name: ASSORTMENT_DESC
+    data_type: string
+  - name: ASSORTMENT_TIER_DESC
+    data_type: string
+  - name: STORE_TYPE_DESC
+    data_type: string
+  - name: CLIMATE_CD
+    data_type: string
+  - name: AERIE_FORMAT_DESC
+    data_type: string
+  - name: AERIE_STANDALONE_IND
+    data_type: string
+  - name: AE_VOLUME_GRADE_CD
+    data_type: string
+  - name: STORE_VOLUME_GRADE_CD
+    data_type: string
+  - name: AERIE_STORE_GRADE_CD
+    data_type: string
+  - name: AERIE_VOLUME_GRADE_CD
+    data_type: string
+  - name: STORE_BRAND_DESC
+    data_type: string
+  - name: BTS_PEAK_CD
+    data_type: string
+  - name: AEO_CHANNEL_DESC
+    data_type: string
+  - name: AERIE_CHANNEL_DESC
+    data_type: string
+  - name: AERIE_FAST_HORSE_DESC
+    data_type: string
+  - name: AE_FAST_HORSE_DESC
+    data_type: string
+  - name: FAST_HORSE_DESC
+    data_type: string
+  - name: MAINLINE_FACTORY_DESC
+    data_type: string
+  - name: PURGE_DT
+    data_type: string
+  - name: PRESENT_IN_ESG_IND
+    data_type: string
+  - name: AERIE_STORE_CONFIG_CD
+    data_type: string
+  - name: LP_AUDITOR_NAME
+    data_type: string
+  - name: STORE_ASSORTMENT_CD
+    data_type: string
+  - name: DOUBLE_INTERIOR_IND
+    data_type: string
+  - name: WINDOW_CLINGS_IND
+    data_type: string
+  - name: SUNDAY_CLOSE_IND
+    data_type: string
+  - name: BACKWALL_CONFIG_NBR
+    data_type: long
+  - name: AERIE_CASH_WRAP_IND
+    data_type: string
+  - name: FOOTWEAR_CONFIG_CD
+    data_type: string
+  - name: DOUBLE_INTERIOR_MKTG_IND
+    data_type: string
+  - name: DOUBLE_DENIM_MKTG_IND
+    data_type: string
+  - name: DOUBLE_PROPS_MKTG_IND
+    data_type: string
+  - name: FLAGSHIP_CUSTOM_MKTG_IND
+    data_type: string
+  - name: OPEN_DT
+    data_type: string
+  - name: INTERNATIONAL_PARTNER_CD
+    data_type: string
+  - name: AE_CONFIG_CD
+    data_type: string
+  - name: OFFLINE_CONFIG_CD
+    data_type: string
+  - name: AE_STORE_DESIGN_CD
+    data_type: string
+  - name: AE_FIXTURE_DESIGN_CD
+    data_type: string
+  - name: AE_MKTG_CLEARANCE_CENTER_CD
+    data_type: string
+  - name: AE_CW_LOCATION_CD
+    data_type: string
+  - name: AE_MKTG_STRATEGY_INTERIOR_CD
+    data_type: string
+  - name: OFFLINE_CASH_WRAP_TYPE_DESC
+    data_type: string
+  - name: SPECIALITY_SHOP_NAME_ARR
+    data_type: string
+  - name: CENTER_NAME_DESC
+    data_type: string
+  - name: BOSS_ENABLED_IND
+    data_type: string
+  - name: STORE_GROSS_SQ_FT
+    data_type: string
+  - name: STORE_SELLING_SQ_FT
+    data_type: string
+  - name: AE_SELLING_SQFT
+    data_type: string
+  - name: AERIE_SELLING_SQFT
+    data_type: string
+  - name: OTHER_SELLING_SQFT
+    data_type: string
+  - name: TOTAL_LEASE_SQFT
+    data_type: string
+  - name: AE_FITTING_ROOM_SQFT
+    data_type: string
+  - name: AERIE_FITTING_ROOM_SQFT
+    data_type: string
+  - name: OTHER_FITTING_ROOM_SQFT
+    data_type: string
+  - name: AE_STOCK_SQFT
+    data_type: string
+  - name: AERIE_STOCK_SQFT
+    data_type: string
+  - name: OTHER_STOCK_SQFT
+    data_type: string
+  - name: PRESENT_IN_STAR_IND
+    data_type: string
+  - name: REAL_ESTATE_BUILDING_CLASS_NBR
+    data_type: long
+  - name: REAL_ESTATE_STORE_TYPE_DESC
+    data_type: string
+  - name: REAL_ESTATE_MALL_TYPE_CD
+    data_type: string
+  - name: REAL_ESTATE_MALL_TYPE_DESC
+    data_type: string
+  - name: REAL_ESTATE_STORE_OPEN_DT
+    data_type: string
+  - name: REAL_ESTATE_STORE_CLOSE_DT
+    data_type: string
+  - name: REAL_ESTATE_STORE_CURRENT_OPEN_DT
+    data_type: string
+  - name: REAL_ESTATE_STORE_RELOCATION_DT
+    data_type: string
+  - name: REAL_ESTATE_STORE_REMODEL_DT
+    data_type: string
+  - name: REAL_ESTATE_STORE_TENTATIVE_OPEN_DT
+    data_type: string
+  - name: REAL_ESTATE_COMPLEX_NAME
+    data_type: string
+  - name: REAL_ESTATE_DESIGN_CONCEPT_DESC
+    data_type: string
+  - name: REAL_ESTATE_PRESENT_IN_RE_IND
+    data_type: string
+  - name: REAL_ESTATE_PURGE_DT
+    data_type: string
+connection_id: con_atscale-sales-demo_DG
+table: Location_Hirerachy

@@ -1,5 +1,45 @@
 unique_name: aeo
 object_type: model
 label: aeo
-metrics: []
-relationships: []
+metrics:
+  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_RETURN_ITEM_QTY_sum
+    folder: Metrics
+  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_PURCHASE_ITEM_QTY_sum
+    folder: Metrics
+  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOSS_ITEM_QTY_sum
+    folder: Metrics
+  - unique_name: m_DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_BOPIS_ITEM_QTY_sum
+    folder: Metrics
+relationships:
+  - unique_name: >-
+      DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_CLASS_NBR_to_Item
+      Description_Item Description
+    from:
+      dataset: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR
+      join_columns:
+        - CLASS_NBR
+        - STYLE_NBR
+        - COLOR_NBR
+    to:
+      dimension: Item Dimension
+      level: Item Description
+  - unique_name: >-
+      DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_STORE_NBR_to_Location
+      Dimension_Store Name
+    from:
+      dataset: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR
+      join_columns:
+        - STORE_NBR
+    to:
+      dimension: Location Dimension
+      level: Store Name
+  - unique_name: >-
+      DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR_DEMAND_DT_to_Fiscal Date
+      Dimension_Fiscal Date
+    from:
+      dataset: DAILY_SALES_AND_INVENTORY_CLASS_STYLE_COLOR
+      join_columns:
+        - DEMAND_DT
+    to:
+      dimension: Fiscal Date Dimension
+      level: Fiscal Date
