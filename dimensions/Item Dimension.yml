@@ -8,6 +8,31 @@ hierarchies:
     levels:
       - unique_name: Division Description
       - unique_name: Item Description
+        secondary_attributes:
+          - unique_name: Item Brand
+            label: Item Brand
+            contains_unique_names: false
+            dataset: CLASS_STYLE_COLOR_ITEM
+            is_unique_key: false
+            key_columns:
+              - ITEM_BRAND_CD
+            name_column: ITEM_BRAND_CD
+          - unique_name: Item Fabric Description
+            label: Item Fabric Description
+            contains_unique_names: false
+            dataset: CLASS_STYLE_COLOR_ITEM
+            is_unique_key: false
+            key_columns:
+              - ITEMDB_FABRIC_DESC
+            name_column: ITEMDB_FABRIC_DESC
+          - unique_name: Item Form Display Description
+            label: Item Form Display Description
+            contains_unique_names: false
+            dataset: CLASS_STYLE_COLOR_ITEM
+            is_unique_key: false
+            key_columns:
+              - ITEMDB_FORM_DISPLAY_DESC
+            name_column: ITEMDB_FORM_DISPLAY_DESC
 level_attributes:
   - unique_name: Item Description
     label: Item Description
