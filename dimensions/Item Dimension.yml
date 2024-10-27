@@ -6,6 +6,7 @@ hierarchies:
     label: Item Dimension Hierarchy
     folder: Item Dimension
     levels:
+      - unique_name: Division Description
       - unique_name: Item Description
 level_attributes:
   - unique_name: Item Description
@@ -18,4 +19,12 @@ level_attributes:
       - STYLE_NBR
       - COLOR_NBR
     name_column: ITEM_BRAND_DESC
+  - unique_name: Division Description
+    label: Division Description
+    contains_unique_names: false
+    dataset: CLASS_STYLE_COLOR_ITEM
+    is_unique_key: false
+    key_columns:
+      - DIVISION_NBR
+    name_column: DIVISION_DESC
 type: standard
